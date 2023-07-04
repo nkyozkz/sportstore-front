@@ -1,0 +1,31 @@
+.container {
+  width: 100vw;
+  height: 88vh;
+  background-color: var(--backgroundColor);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 4vw;
+}
+
+.contenedorRespuesta{
+  width: 100vw;
+  height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--letterColor);
+  background-color: var(--backgroundColor);
+  flex-direction: column;
+  gap: 2vw;
+  font-size: 5vw;
+  text-align: center;
+}
+@media all and (min-width:1004px){
+  .contenedorRespuesta{
+    font-size: 3vw;
+  }
+}
