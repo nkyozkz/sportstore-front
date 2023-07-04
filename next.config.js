@@ -1,12 +1,16 @@
 const imageDomains = [
-  "m.media-amazon.com",
-  "res.cloudinary.com",
-  "www.animefreaks.es",
-  "www.poolortega.com",
   "http2.mlstatic.com",
-  "www.banpresto.es",
+  "contents.mediadecathlon.com",
+  "www.dhresource.com",
+  "www.escalada.cl",
+  "ultimatefitness.cl",
+  "jumbo.vtexassets.com",
+  "cdn.shopify.com",
+  "www.chilemontana.cl",
+  "img.freepik.com",
+  "wallpaperaccess.com",
   "localhost",
-  "backendcoder-final-production.up.railway.app",
+  "backend-sportstore-production.up.railway.app",
 ];
 
 const nextConfig = {

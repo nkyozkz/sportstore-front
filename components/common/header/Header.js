@@ -54,7 +54,7 @@ const Header = ({ isLoggedIn, isAdmin, setMenuOpen, menuOpen }) => {
                 <MenuItem href="/products" label="Productos">
                   <BsBagHeartFill />
                 </MenuItem>
-                <MenuItem href="/chat" label="Chat">
+                <MenuItem href="/chat" label="Ayuda">
                   <BsFillChatDotsFill />
                 </MenuItem>
                 {isLoggedIn ? (
@@ -92,7 +92,7 @@ const Header = ({ isLoggedIn, isAdmin, setMenuOpen, menuOpen }) => {
           <MenuItem href="/products" onClick={openCloseMenu} label="Productos">
             <BsBagHeartFill />
           </MenuItem>
-          <MenuItem href="/chat" onClick={openCloseMenu} label="Chat">
+          <MenuItem href="/chat" onClick={openCloseMenu} label="Ayuda">
             <BsFillChatDotsFill />
           </MenuItem>
           {isLoggedIn ? (
