@@ -18,7 +18,7 @@ const nextConfig = {
     domains: imageDomains,
   },
   env: {
-    DOMAIN_API_URL: "",
+    DOMAIN_API_URL: "https://backend-sportstore-production.up.railway.app",
   },
 };
 
